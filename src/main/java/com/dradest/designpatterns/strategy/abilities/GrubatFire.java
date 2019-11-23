@@ -1,6 +1,6 @@
 package com.dradest.designpatterns.strategy.abilities;
 
-public class GubraithianFire implements SpecialAbility {
+public class GrubatFire implements SpecialAbility {
 
     @Override
     public void perform() {
