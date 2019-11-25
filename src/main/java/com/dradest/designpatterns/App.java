@@ -1,5 +1,6 @@
 package com.dradest.designpatterns;
 
+import com.dradest.designpatterns.decoratorpattern.DecoratorParlor;
 import com.dradest.designpatterns.observerpattern.ObserverLibrary;
 import com.dradest.designpatterns.strategy.StrategyWizards;
 
@@ -16,8 +17,12 @@ public class App
 //        strategyWizards.showStrategyMagic();
 
         // observer pattern
-        ObserverLibrary observerLibrary = new ObserverLibrary();
-        observerLibrary.showObserverLibrary();
+//        ObserverLibrary observerLibrary = new ObserverLibrary();
+//        observerLibrary.showObserverLibrary();
+        
+        // decorator pattern
+        DecoratorParlor decoratorParlor = new DecoratorParlor();
+        decoratorParlor.orderFrozenYogurts();
 
 
 
