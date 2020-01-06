@@ -3,7 +3,7 @@ package com.dradest.designpatterns.decoratorpattern.decorator;
 import com.dradest.designpatterns.decoratorpattern.product.Product;
 
 public class CaramelSauce extends CondimentDecorator {
-    Product product;
+    private Product product;
 
     public CaramelSauce(Product product) {
         this.product = product;

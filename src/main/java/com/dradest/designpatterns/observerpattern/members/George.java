@@ -4,7 +4,6 @@ import com.dradest.designpatterns.observerpattern.observer.Observer;
 import com.dradest.designpatterns.observerpattern.subject.Subject;
 
 public class George implements Observer, LibraryMember {
-
     private String news;
     private Subject libraryNews;
     ;

@@ -4,7 +4,6 @@ import com.dradest.designpatterns.strategy.abilities.SpecialAbility;
 import com.dradest.designpatterns.strategy.spell.SpellCast;
 
 public abstract class Wizard {
-
     protected SpellCast spellCast;
     protected SpecialAbility specialAbility;
 
@@ -25,5 +24,4 @@ public abstract class Wizard {
     public void setSpecialAbility(SpecialAbility specialAbility) {
         this.specialAbility = specialAbility;
     }
-
 }

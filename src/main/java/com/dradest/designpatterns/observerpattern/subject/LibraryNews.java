@@ -6,7 +6,6 @@ import com.dradest.designpatterns.observerpattern.observer.Observer;
 import java.util.ArrayList;
 
 public class LibraryNews implements Subject {
-
     private ArrayList observers;
     private String news;
 

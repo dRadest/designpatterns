@@ -3,7 +3,6 @@ package com.dradest.designpatterns.observerpattern.observer;
 import com.dradest.designpatterns.observerpattern.subject.Subject;
 
 public class Lilly implements Observer {
-
     private String news;
     private Subject libraryNews;
 
