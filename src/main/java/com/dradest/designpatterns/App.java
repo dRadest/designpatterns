@@ -31,8 +31,11 @@ public class App
 //        observerLibrary.showObserverLibrary();
 
         // decorator pattern
-        DecoratorParlor decoratorParlor = new DecoratorParlor();
-        decoratorParlor.orderFrozenYogurts();
+//        DecoratorParlor decoratorParlor = new DecoratorParlor();
+//        decoratorParlor.orderFrozenYogurts();
+
+        CarFactoryPattern carFactoryPattern = new CarFactoryPattern();
+        carFactoryPattern.orderCars();
 
 
     }
