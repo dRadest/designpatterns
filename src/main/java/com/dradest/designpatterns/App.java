@@ -34,8 +34,11 @@ public class App
 //        DecoratorParlor decoratorParlor = new DecoratorParlor();
 //        decoratorParlor.orderFrozenYogurts();
 
-        CarFactoryPattern carFactoryPattern = new CarFactoryPattern();
-        carFactoryPattern.orderCars();
+//        CarFactoryPattern carFactoryPattern = new CarFactoryPattern();
+//        carFactoryPattern.orderCars();
+
+        SendSingletonMessages sendSingletonMessages = new SendSingletonMessages();
+        sendSingletonMessages.sendMessages();
 
 
     }
