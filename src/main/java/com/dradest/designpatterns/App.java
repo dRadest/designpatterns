@@ -47,9 +47,12 @@ public class App
 //        commandController.loadCommands();
 
         // adapter pattern
-        AdapterChargeLaptops adapterChargeLaptops = new AdapterChargeLaptops();
-        adapterChargeLaptops.chargeLaptops();
+//        AdapterChargeLaptops adapterChargeLaptops = new AdapterChargeLaptops();
+//        adapterChargeLaptops.chargeLaptops();
 
+        // facade pattern
+        CookBehindFacade cookBehindFacade = new CookBehindFacade();
+        cookBehindFacade.prepareNiceMeal();
 
     }
 
