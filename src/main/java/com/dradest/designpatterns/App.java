@@ -37,8 +37,12 @@ public class App
 //        CarFactoryPattern carFactoryPattern = new CarFactoryPattern();
 //        carFactoryPattern.orderCars();
 
-        SendSingletonMessages sendSingletonMessages = new SendSingletonMessages();
-        sendSingletonMessages.sendMessages();
+//        SendSingletonMessages sendSingletonMessages = new SendSingletonMessages();
+//        sendSingletonMessages.sendMessages();
+
+        // command pattern
+        CommandController commandController = new CommandController();
+        commandController.loadCommands();
 
 
     }
