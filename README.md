@@ -12,6 +12,8 @@ Different design patterns in Java. Code accompanying drad’est guides. Specific
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Strategy pattern](https://github.com/dRadest/designpatterns/tree/master/src/main/java/com/dradest/designpatterns/strategy)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[Command pattern](https://github.com/dRadest/designpatterns/tree/master/src/main/java/com/dradest/designpatterns/commandpattern)
+
 To run the code for a specific design pattern, uncomment the appropriate code in [App.java](https://github.com/dRadest/designpatterns/blob/master/src/main/java/com/dradest/designpatterns/App.java) and run it. For example
 
 
