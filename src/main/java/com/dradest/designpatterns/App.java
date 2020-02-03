@@ -34,15 +34,21 @@ public class App
 //        DecoratorParlor decoratorParlor = new DecoratorParlor();
 //        decoratorParlor.orderFrozenYogurts();
 
+        // factory pattern
 //        CarFactoryPattern carFactoryPattern = new CarFactoryPattern();
 //        carFactoryPattern.orderCars();
 
+        // singleton pattern
 //        SendSingletonMessages sendSingletonMessages = new SendSingletonMessages();
 //        sendSingletonMessages.sendMessages();
 
         // command pattern
-        CommandController commandController = new CommandController();
-        commandController.loadCommands();
+//        CommandController commandController = new CommandController();
+//        commandController.loadCommands();
+
+        // adapter pattern
+        AdapterChargeLaptops adapterChargeLaptops = new AdapterChargeLaptops();
+        adapterChargeLaptops.chargeLaptops();
 
 
     }
