@@ -55,9 +55,12 @@ public class App
 //        cookBehindFacade.prepareNiceMeal();
 
         // template method pattern
-        ChocolateTemplateFactory chocolateTemplateFactory = new ChocolateTemplateFactory();
-        chocolateTemplateFactory.makeChocolates();
+//        ChocolateTemplateFactory chocolateTemplateFactory = new ChocolateTemplateFactory();
+//        chocolateTemplateFactory.makeChocolates();
 
+        // iterator pattern
+        IteratorShirtOrder iteratorShirtOrder = new IteratorShirtOrder();
+        iteratorShirtOrder.placeShirtOrders();
 
     }
 
