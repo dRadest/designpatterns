@@ -51,8 +51,13 @@ public class App
 //        adapterChargeLaptops.chargeLaptops();
 
         // facade pattern
-        CookBehindFacade cookBehindFacade = new CookBehindFacade();
-        cookBehindFacade.prepareNiceMeal();
+//        CookBehindFacade cookBehindFacade = new CookBehindFacade();
+//        cookBehindFacade.prepareNiceMeal();
+
+        // template method pattern
+        ChocolateTemplateFactory chocolateTemplateFactory = new ChocolateTemplateFactory();
+        chocolateTemplateFactory.makeChocolates();
+
 
     }
 
