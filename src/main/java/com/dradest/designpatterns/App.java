@@ -59,8 +59,13 @@ public class App
 //        chocolateTemplateFactory.makeChocolates();
 
         // iterator pattern
-        IteratorShirtOrder iteratorShirtOrder = new IteratorShirtOrder();
-        iteratorShirtOrder.placeShirtOrders();
+//        IteratorShirtOrder iteratorShirtOrder = new IteratorShirtOrder();
+//        iteratorShirtOrder.placeShirtOrders();
+
+        // component pattern
+        ComponentShirtOrders componentShirtOrders = new ComponentShirtOrders();
+        componentShirtOrders.placeShirtOrders();
+
 
     }
 
