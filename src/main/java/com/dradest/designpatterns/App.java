@@ -63,9 +63,12 @@ public class App
 //        iteratorShirtOrder.placeShirtOrders();
 
         // component pattern
-        ComponentShirtOrders componentShirtOrders = new ComponentShirtOrders();
-        componentShirtOrders.placeShirtOrders();
+//        ComponentShirtOrders componentShirtOrders = new ComponentShirtOrders();
+//        componentShirtOrders.placeShirtOrders();
 
+        // state pattern
+        WatchingTVState watchingTVState = new WatchingTVState();
+        watchingTVState.watchTV();
 
     }
 
