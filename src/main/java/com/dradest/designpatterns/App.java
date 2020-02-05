@@ -67,9 +67,12 @@ public class App
 //        componentShirtOrders.placeShirtOrders();
 
         // state pattern
-        WatchingTVState watchingTVState = new WatchingTVState();
-        watchingTVState.watchTV();
+//        WatchingTVState watchingTVState = new WatchingTVState();
+//        watchingTVState.watchTV();
 
+        // proxy pattern
+        MakeRequestsOnProxyServer makeRequestsOnProxyServer = new MakeRequestsOnProxyServer();
+        makeRequestsOnProxyServer.makeProxyRequests();
     }
 
 }
